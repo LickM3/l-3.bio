@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LickM3 Official</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
+    <meta content="LickM3 Official" property="og:title" />
+    <meta content="My official portfolio and contacts..." property="og:description" />
+    <meta content="https://l-3.bio/" property="og:url" />
+    <meta content="https://www.czhost.online/images/logo.png" property="og:image" />
+    <meta content="#b378d3" data-react-helmet="true" name="theme-color" />
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+          <a class="navbar-brand mb-lg-4 mx-lg-auto" href="#">
+            <span class="h3 fw-bold d-block d-lg-none">LickM3</span>
+            <img src="./assets/images/logo.png" class="d-none d-lg-block rounded-circle" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#welcome">Welcome</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact">Contacts</a>
+              </li>      
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Contetnt wrapper -->
+    <div id="content-wrapper">
+        <!-- Welcome -->
+        <section id="welcome" class="full-height">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 class="display-4 fw-bold animate__animated animate__fadeInUp"><span class="multiText"></span></h1>
+                        <p class="lead mt-2 mb-4 animate__animated animate__fadeInUp animate__delay-1s">Starting Czech developer. Your TypeScript rat ❤️</p>
+                        <div class="animate__animated animate__fadeInUp animate__delay-2s">
+                          <a href="#portfolio" class="link-custom me-3">Check My Portfolio</a>
+                          <a onclick="copyContent()" class="link-custom">Add me: stillLickM3#3153</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="full-height px-lg-5">
+          <div class="container">
+
+            <div class="row pb-4 animate__animated animate__fadeInUp">
+              <div class="col-lg-8">
+                <h6 class="text-brand">PORTFOLIO</h6>
+                <h1>My Current Portfolio</h1>
+              </div>
+            </div>
+
+            <div class="row gy-4">
+
+              <div class="col-md-6 animate__animated animate__fadeInUp">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img class="rounded-4" src="./assets/images/czhost.png" alt="">
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>CZHost</h4>
+                    <p>Private file hosting site. Embeds and ShareX support! Supports any file type and any file size!</p>
+                    <a class="link-custom" target=”_blank”>Private Code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 animate__animated animate__fadeInUp animate__delay-1s">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img class="rounded-4" src="./assets/images/l3.png" alt="">
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>l-3.bio</h4>
+                    <p>This site :D Made with HTML, CSS and a bit of JavaScript. I used Bootstrap, animate.style and FontAwesome.</p>
+                    <a href="https://github.com/LickM3/l-3.bio" class="link-custom" target="_blank">View Code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 animate__animated animate__fadeInUp">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img class="rounded-4" src="./assets/images/denda.png" alt="">
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>dendazmehosklepa</h4>
+                    <p>Discord bot made for Myzlivko. (Code is private)</p>
+                    <a href="https://twitch.tv/myzlivko" class="link-custom" target="_blank">Twitch Myzlivko</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="full-height px-lg-5">
+          <div class="container">
+
+            <div class="row pb-4 animate__animated animate__fadeInUp">
+              <div class="col-lg-8">
+                <h6 class="text-brand">SERVICES</h6>
+                <h1>Services Provided by LickM3</h1>
+              </div>
+            </div>
+
+            <div class="row gy-4">
+              <div class="col-md-4 animate__animated animate__fadeInUp">
+                <div class="service p-4 bg-base rounded-4 shadow-effect">
+                  <div class="iconbox rounded-4">
+                    <i class="fa-solid fa-server"></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">CZHost</h5>
+                  <p>Private file hosting site. Embeds and ShareX support! Supports any file type and any file size!</p>
+                  <a href="https://czhost.online/" class="link-custom" target=”_blank”>Check Website</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 animate__animated animate__fadeInUp animate__delay-1s">
+                <div class="service p-4 bg-base rounded-4 shadow-effect">
+                  <div class="iconbox rounded-4">
+                    <i class="fa-brands fa-discord"></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Discord Bot</h5>
+                  <p>I will create a Discord bot according to your ideas in NodeJS.</p>
+                  <a href="#contact" class="link-custom">Contact Me</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 animate__animated animate__fadeInUp animate__delay-2s">
+                <div class="service p-4 bg-base rounded-4 shadow-effect">
+                  <div class="iconbox rounded-4">
+                    <i class="fa-brands fa-node-js"></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Discord Bot Hosting</h5>
+                  <p>I am able to host a limited number of Discord Bots if the concept appeals to me.</p>
+                  <a href="#contact" class="link-custom">Contact Me</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="full-height px-lg-5">
+          <div class="container">
+
+            <div class="row pb-4 animate__animated animate__fadeInUp">
+              <div class="col-md-8">
+                <h6 class="text-brand">PROJECTS</h6>
+                <h1>Projects I am currently working on</h1>
+              </div>
+            </div>
+
+            <div class="row gy-4">
+
+              <div class="col-md-6 animate__animated animate__fadeInUp">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img class="rounded-4" src="./assets/images/denda.png" alt="">
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>dendazmehosklepa</h4>
+                    <p>Discord bot made for Myzlivko.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 animate__animated animate__fadeInUp animate__delay-1s">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img class="rounded-4" src="./assets/images/naomi.png" alt="">
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>Naomi</h4>
+                    <p>NodeJS public Discord bot. (Development is on hold at this time)</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Contacts -->
+        <section id="contact" class="full-height px-lg-5">
+          <div class="container">
+
+            <div class="row pb-4 animate__animated animate__fadeInUp">
+              <div class="col-lg-8">
+                <h6 class="text-brand">CONTACTS</h6>
+                <h1>Contacts to LickM3</h1>
+              </div>
+            </div>
+
+            <div class="row gy-4">
+              <div class="col-md-4 animate__animated animate__fadeInUp">
+                <div class="service p-4 bg-base rounded-4 shadow-effect">
+                  <div class="iconbox rounded-4">
+                    <i class="fa-brands fa-discord"></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Discord</h5>
+                  <p id="toCopy">stillLickM3#3153</p>
+                  <a onclick="copyContent()" class="link-custom">Copy</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 animate__animated animate__fadeInUp animate__delay-1s">
+                <div class="service p-4 bg-base rounded-4 shadow-effect">
+                  <div class="iconbox rounded-4">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Email</h5>
+                  <p>vitgadatsch@l-3.bio</p>
+                  <a href="mailto:vitgadatsch@l-3.bio" class="link-custom">Text Me</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 animate__animated animate__fadeInUp animate__delay-2s">
+                <div class="service p-4 bg-base rounded-4 shadow-effect">
+                  <div class="iconbox rounded-4">
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Instagram</h5>
+                  <p>sleeping.shimika</p>
+                  <a href="https://www.instagram.com/sleeping.shimika/" class="link-custom" target=”_blank”>View Site</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-5">
+          <div class="container">
+            <div class="row gy-4 justify-content-center">
+              <div class="col-auto">
+                <p class="mb-0">LickM3 with ❤️</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/57fb7887b0.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed('.multiText', {
+            strings: ['L-3.bio', 'LickM3'],
+            typeSpeed: 150,
+            backSpeed: 120,
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
+    <script>
+      let text = document.getElementById('toCopy').innerHTML;
+      const copyContent = async () => {
+        try {
+          await navigator.clipboard.writeText(text);
+          console.log('Content copied to clipboard');
+          alert("Discord copied");
+        } catch (err) {
+          console.error('Failed to copy: ', err);
+        }
+      }
+    </script>
+</body>
+</html>
