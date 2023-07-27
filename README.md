@@ -6,6 +6,6 @@ Official LickM3s website and portfolio.
 
 ## Source
 
-**Frameworks:** Bootstrap, Animate.css, FontAwesome 
+**Frameworks/Libs:** Bootstrap, Animate.css, FontAwesome 
 
 **Languages:** HTML, CSS, JavaScript
